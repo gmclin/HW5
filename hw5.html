@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+    
+<title>index</title>
+<style>
+body {
+	background-color:beige;
+	width:750px; 
+	font-family: "times new roman", Verdana, sans-serif;
+	
+}
+ 
+h1#intro {background-color:DarkCyan;
+    border-width: 100%;
+    
+    border-style:ridge; border-color: blue;
+	text-align: center; }	
+ 
+h2 {
+	color:DarkCyan;
+	font-family: Times New Roman;}
+ 
+p#intro:first-letter {
+	font-size: 200%;}
+  
+ 
+
+.floating-box {
+    display: inline-block;
+    width: 150px;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid black; 
+}
+ 
+.hobbies{
+    width:250px; height: 300px; float: left; margin: 5px; padding:5px; 
+    background-color: rgb(114, 193, 240); 
+    border-style: solid; border-width: 1px; border-color:black;
+}  
+ 
+ 
+p.background { 
+    width:200px; float: left; margin: 5px; padding:5px;
+     background-color: rgb(140,202,242); 
+    border-style: solid; border-width: 1px; border-color: black;
+}
+ 
+.travel {width:250px; height: 300px; float: left; margin: 2px; padding:2px; background-color: rgb(114, 193, 240);
+    border-style: solid; border-width: 1px; border-color: black;
+} 
+ 
+.ambitions {width: 250px; height: 300px; float: left; margin: 2px; padding:2px; background-color: rgb(84, 182, 237);
+    border-style: solid; border-width: 1px; border-color: black;
+      
+     
+}
+
+.books {width:200px; height: 350px; float: left; margin: 2px; padding:2px; background-color: rgb(84, 182, 237);
+    border-style: solid; border-width: 1px; border-color: black;    
+} 
+.blog {width:500px; float: left; margin: 5px; padding:5px; background-color: rgb(84, 182, 237);
+    border-style: solid; border-width: 1px; border-color: black;
+}
+fieldset.note {
+	color: red;
+	font-family: verdana;
+	font-weight: bold;
+}
+</style>
+
+<body>
+
+<h1 id="intro">A Little About Me</h1>
+ 
+<p><img src="images/Greatgrandparents.jpg" alt="My Great Grandparents"  width="500" height="400" align="center" /></p>
+<p id="intro">Hello, my name is Gina McLin and this is the story about me.  You might find it rather dull as opposed to interesting.  Whatever the case, I hope that you will take the time to explore. Thank you. </p>
+ 
+ 
+<h2><i>Background</i> </h2>
+<p>   I am one of six siblings, five girls, and one boy.  I am usually the quiet one in the family and apparently the <q>all-knowing wizard</q> as well. Although the baby girl, I find myself being the go-to person in the family, whether it is for homework, taxes, personal advice, or even things I have <b>no</b> idea about. When I have time to myself, I enjoy curling up on the couch with a large mug of coffee reading a book, or surfing the web.  Three of my major passions I acquired at a very early age.  One is the love of playing piano (even though I don’t know how to read notes); another is the space sciences, and reading. I enjoy the peace and beauty of morning sunrises and listening to the birds sing. </p>
+ 
+<div class="hobbies">
+    <h2>Hobbies/Interests</h2>
+    <img src="images/Astronaut_Large_by_Merlin2525.svg" width="75" height="75"/>
+        <ul>
+            <li>Reading</li>
+            <li>Playing piano</li>
+            <li>Anything that has to do with the space sciences</li>
+            <li>Baking</li> 
+        </ul>
+</div>
+ 
+<!--
+<h2>Places Traveled</h2>
+<img src="images/travel.jpg" alt="Southwest" width="100" height="100" />
+<ul>
+<li>Southwest United States</li>
+<li>Southeast United States</li>
+<li>Other side of Cleveland</li>
+</ul>
+-->
+
+ <div class="ambitions">
+  <h2>Ambitions</h2>
+    <p>I would <strong>LOVE</strong> to finally be able to cross something off my bucket list that has been growing <em><b>exponentially!</b></em> My top three items are as follows:
+    </p>
+ 
+    <ol>
+        <li>Complete the Cleveland Codes program and land a job.</li>
+        <li>Finalize my mother's estate.</li>
+        <li>Cut down the weeds in the back yard before Spring!</li>
+    </ol>
+</div>
+
+<div class="books">
+     
+    <h2>Books read/recommended</h2>
+ 
+    <ul>
+        <li> <a href="https://www.goodreads.com/book/show/4894.Who_Moved_My_Cheese_"><em>Who Moved My Cheese</em></a><br />
+            by Spencer Johnson, Kenneth H. Blanchard</li>
+        <li> <a href="https://www.goodreads.com/book/show/66499.The_Creature_from_Jekyll_Island"><em>The Creature from Jekyll Island: A Second Look at the Federal Reserve</em></a><br />
+        by Edward G. Griffin</li>
+    </ul>
+</div>
+
+
+<!--
+ <div class="blog">
+<h2>Links to Blogs</h2>
+<p> Personally, I do not read blogs because I find myself not having enough time in the day to do so; therefore, I am unable to recommend any.<br />
+</p>
+<p><b>But...</b> if you like to read and want to find good reviews on certain books I recommend <a href="https://www.goodreads.com/" target="_blank">Goodreads.com.</a></p>
+ 
+
+</div>
+
+
+-->
+
+ 
+<div class="schd">
+    <h2> My Weekly Schedule</h2>
+    <table border="2" bgcolor="#87ceeb" width="750" cellpadding="10" cellspacing="5">
+<tr>
+<th width="140"></th>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+<th>Thursday</th>
+<th>Friday</th>
+<th>Saturday</th>
+<th>Sunday</th>
+</tr>
+<tr>
+<th>9am - 9:15am</th>
+<td>Quiz</td>
+<td>Quiz</td>
+<td>Quiz</td>
+<td>Quiz</td>
+<td>Quiz</td>
+<td bgcolor="#efefef" rowspan="8">Days Off</td>
+<td bgcolor="#efefef" rowspan="8">Days Off</td>
+</tr>
+<tr>
+<th>9:15am - 10am</th>
+<td>Lecture</td>
+<td>Lecture</td>
+<td>Lecture</td>
+<td>Lecture</td>
+<td>Lecture</td>
+</tr>
+<tr>
+<th>10am - 11:15am</th>
+<td>Break</td>
+<td>Break</td>
+<td>Break</td>
+<td>Break</td>
+<td>Break</td>
+</tr>
+<tr>
+<th>11:15am - Noon</th>
+<td>Lecture</td>
+<td>Lecture</td>
+<td>Lecture</td>
+<td>Lecture</td>
+<td>Lecture</td>
+</tr>
+<tr>
+<th>Noon - 1pm</th>
+<td>Lunch</td>
+<td>Lunch</td>
+<td>Lunch</td>
+<td>Lunch</td>
+<td>Lunch</td>
+</tr>
+<tr>
+<th>1pm - 2:15pm</th>
+<td>Lecture</td>
+<td>Lecture</td>
+<td>Lecture</td>
+<td>Lecture</td>
+<td>Lecture</td>
+</tr>
+<tr>
+<th>2:15pm - 2:30pm</th>
+<td>Break</td>
+<td>Break</td>
+<td>Break</td>
+<td>Break</td>
+<td>Break</td>
+</tr>
+<tr>
+<th>2:30pm - 4:30pm</th>
+<td>Lecture</td>
+<td>Lecture</td>
+<td>Lecture</td>
+<td>Lecture</td>
+<td>Lecture</td>
+</tr>
+</table>
+</div>
+ 
+<fieldset class="note">
+    <legend>Contact Me</legend>
+    <p><img src="https://media.giphy.com/media/3o8doQT3kbKYz3EIUM/giphy.gif" alt="sunshine"  width"300" height="300" align="right"/>
+    </p>
+ 
+    <label>Name:<br />
+    <input type="text" name="name" /> </label><br />
+    <label>Email:<br/>
+    <input type="text' name="email /></label><br />
+    <label>CC:<br/>
+    <input type="text" name="cc" /></label><br />
+    <label>Subject:<br/>
+    <input type="text" name="subject" /> </label><br />
+    <label>Questions:<br />
+    <textarea name="questions" cols="50" rows="4">Enter your question here.</textarea>
+    </fieldset>
+    </p>
+ 
+ </body>
+
+</html>
